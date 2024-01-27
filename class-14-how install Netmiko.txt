@@ -1,0 +1,25 @@
+nstall Netmiko/Paramiko
+
+apt-get update
+
+apt-get install python -y
+
+apt-get install build-essential libssl-dev libffi-dev -y
+
+apt-get install python-pip -y
+
+ 
+
+pip install cryptography
+
+pip install paramiko
+
+ 
+
+Or to install Netmiko
+
+pip install netmiko
+
+---------------------------------------to downgrade Netmiko after 2020
+
+pip install netmiko==2.4.2
